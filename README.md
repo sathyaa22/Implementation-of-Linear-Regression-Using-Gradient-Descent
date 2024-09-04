@@ -10,12 +10,19 @@ To write a program to predict the profit of a city using the linear regression m
 ## Algorithm
 
 Step 1: Start the program.
+
 Step 2: Add a column to x for the intercept,initialize the theta.
+
 Step 3: Perform graadient descent.
+
 Step 4: Read the csv file.
+
 Step 5: Assuming the last column is ur target variable 'y' and the preceeding column.
+
 Step 6: Learn model parameters.
+
 Step 7: Predict target value for a new data point.
+
 Step 8: End the program.
 
 ## Program:
