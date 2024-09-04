@@ -51,8 +51,10 @@ def linear_regression(X1,y,learning_rate=0.1,num_iters=1000):
         #Update theta using gradient descent
         theta-=learning_rate*(1/len(X1))*X.T.dot(errors)
     return theta
+
 data=pd.read_csv("C:/Users/admin/Downloads/50_Startups.csv")
 data.head()
+
 #Assuming the last column is your target variavle 'y' and the presede
 X=(data.iloc[1:,:-2].values)
 X1=X.astype(float)
@@ -63,6 +65,7 @@ X1_Scaled=scaler.fit_transform(X1)
 Y1_Scaled=scaler.fit_transform(y)
 print(X)
 print(X1_Scaled)
+
 #Learn model Parameters
 theta=linear_regression(X1_Scaled,Y1_Scaled)
 #Predict target value for a new data point
