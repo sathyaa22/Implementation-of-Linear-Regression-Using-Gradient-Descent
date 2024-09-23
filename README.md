@@ -23,7 +23,7 @@ Step 6: Learn model parameters.
 
 Step 7: Predict target value for a new data point.
 
-Step 8: End the program.
+Step 8: Stop the program.
 
 ## Program:
 
