@@ -83,6 +83,8 @@ print(f"Predicted value: {pre}")
 
 ![Screenshot 2024-08-29 093306](https://github.com/user-attachments/assets/c47db437-7e6d-46bc-9939-edca02171368)
 
+Prediction:
+
 ![Screenshot 2024-08-29 093458](https://github.com/user-attachments/assets/7449b2bc-cbf3-44f9-93c3-7ed2b796f290)
 
 ## Result:
